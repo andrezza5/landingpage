@@ -1,0 +1,28 @@
+form {
+    width: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 15px;
+    background-color: #707B7C;
+}
+
+form fieldset {
+    border: 0;
+}
+
+form fieldset label {
+    display: block;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    form{
+        width: 380px;
+        padding: 0;
+        margin: 100px auto;
+    }
+    
+}
